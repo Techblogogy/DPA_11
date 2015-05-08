@@ -11,7 +11,7 @@
 
 	<body>
 		<div id="contr">
-<!--			<input type="number" id="nO" value="1"></br>-->
+			<span>№ Варианта: </span>
 			<select id="nO">
 				<option value="8">8</option>
 				<option value="5">5</option>
@@ -25,7 +25,7 @@
 				<option value="36">36</option>					
 			</select>
 			
-			<input type="checkbox" id="ch">Не в случайном порядке</br>
+			<input type="checkbox" id="ch" style="display:none"><!--Не в случайном порядке--></br>
 			<button id="startB">Создать Билет</button>
 		</div>
 
@@ -34,12 +34,9 @@
 			<p>Загрузка Ресурсов. Подождите</p>
 		</div>
 
-		<div id="canvasHolder">
-			<!-- <canvas width="3120" height="4099" id="imageHolder"></canvas> -->
-		</div>
-
-<!--		<script src="Packages/Package 1/PackageInfo.js"></script>-->
-<!--		<script src="script.js"></script>-->
-			<script src="engine-min.js"></script>	
+		<div id="canvasHolder"></div>
+			
+			
+		<script src="engine-min.js"></script>	
 	</body>
 </html>
